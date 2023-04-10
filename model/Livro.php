@@ -1,13 +1,14 @@
-<?
+<?php
+
 include_once("Autor.php");
-include_once("Edirora.php");
+include_once("Editora.php");
     class Livro{
         public $titulo;
         public $isbn;
         public $nPaginas;
         public $anoPublicacao;
         public $numEdicao;
-        public Autor $autor;
+        public $autor;
         public Editora $editora;
 
         function __construct(){

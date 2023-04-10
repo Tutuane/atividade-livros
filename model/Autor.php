@@ -1,19 +1,21 @@
 <?php
     class Autor{
-        public $nome;
-        public $email;
-        public $website;
+        private $nome;
+        private $email;
+        private $website;
         
 
         function __setNome($nome){
-            $this -> $nome = $nome;
+            $this -> nome = $nome;
         }
         function __setEmail($email){
-            $this -> $email = $email;
+            $this -> email = $email;
         }
         function __setWebsite($website){
-            $this -> $website = $website;
+            $this -> website = $website;
         }
+
+
 
         function __getNome(){
             return $this -> nome;
